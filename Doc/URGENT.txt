@@ -1,0 +1,4 @@
+commande enfichement essert board -> pour dimensionner entretoise plastique  
+
+avancer schéma : -> uc connecteur rct diodes etc 
+poser quesstion a shubert alim et rtc .> justifier choix RTC et Tension d'entrée avec systéme précédent + prix des régulateur 

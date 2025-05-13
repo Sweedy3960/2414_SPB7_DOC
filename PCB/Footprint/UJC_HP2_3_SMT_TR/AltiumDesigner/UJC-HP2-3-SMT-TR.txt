@@ -1,0 +1,134 @@
+# Created by Ultra Librarian 8.3.365 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "CONN6_UJC-HP2_CUD")
+Pad (Name "B12") (Location -98.4252, 120.84649658) (Surface True) (Rotation 0) (ExpandMask -27.5) (ExpandPaste -27.5)
+PadShape (Size 32, 55) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "B9") (Location -59.0551, 120.84649658) (Surface True) (Rotation 0) (ExpandMask -27.5) (ExpandPaste -27.5)
+PadShape (Size 30, 55) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "A5") (Location -19.685, 120.84649658) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 55) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "B5") (Location 19.685, 120.84649658) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 55) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "A9") (Location 59.0551, 120.84649658) (Surface True) (Rotation 0) (ExpandMask -27.5) (ExpandPaste -27.5)
+PadShape (Size 30, 55) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "A12") (Location 98.4252, 120.84649658) (Surface True) (Rotation 0) (ExpandMask -27.5) (ExpandPaste -27.5)
+PadShape (Size 32, 55) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "7") (Location -170.0788, 109.42919658) (Surface True) (Rotation 0) (ExpandMask -31.5) (ExpandPaste -31.5)
+PadShape (Size 39, 63) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "8") (Location 170.0788, 109.42919658) (Surface True) (Rotation 0) (ExpandMask -31.5) (ExpandPaste -31.5)
+PadShape (Size 39, 63) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "9") (Location -170.08, -40.17710342) (Surface True) (Rotation 0) (ExpandMask -31.5) (ExpandPaste -31.5)
+PadShape (Size 39, 63) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "10") (Location 170.08, -40.17710342) (Surface True) (Rotation 0) (ExpandMask -31.5) (ExpandPaste -31.5)
+PadShape (Size 39, 63) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "S_1_H1") (Location -170.08000183, 120.92917633) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "S_1_H2") (Location -170.08000183, 97.92917633) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "S_2_H1") (Location 170.07875061, 120.92917633) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "S_2_H2") (Location 170.07875061, 97.92917633) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "S_3_H1") (Location -170.08, -28.67710342) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "S_3_H2") (Location -170.08, -51.67710342) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "S_4_H1") (Location 170.08, -28.67710342) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "S_4_H2") (Location 170.08, -51.67710342) (HoleSize 24) (Plated 0) (Surface False) (Rotation 0) (ExpandMask -12) (ExpandPaste -12)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Top)
+PadShape (Size 24, 24) (Shape Rounded) (Layer Bottom)
+EndPad
+Line (Width 6) (Start -199.58000183, 158.34649658) (End -199.58000183, -152.5) (Layer Mechanical15) 
+Line (Width 6) (Start -199.58000183, -152.5) (End 199.58000183, -152.5) (Layer Mechanical15) 
+Line (Width 6) (Start 199.58000183, -152.5) (End 199.58000183, 158.34649658) (Layer Mechanical15) 
+Line (Width 6) (Start 199.58000183, 158.34649658) (End -199.58000183, 158.34649658) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-199.58000183, 158.34649658)
+Point (-199.58000183, -152.5)
+Point (199.58000183, -152.5)
+Point (199.58000183, 158.34649658)
+EndPolygon
+Line (Width 6) (Start -181, -147.5) (End 181, -147.5) (Layer TopOverlay) 
+Line (Width 6) (Start 181, -147.5) (End 181, -82.89377031) (Layer TopOverlay) 
+Line (Width 6) (Start 150.50659153, 147.50003624) (End 125.52520038, 147.50003624) (Layer TopOverlay) 
+Line (Width 6) (Start -181, 66.71295633) (End -181, 2.53956347) (Layer TopOverlay) 
+Line (Width 6) (Start -125.52520038, 147.50003624) (End -150.50659153, 147.50003624) (Layer TopOverlay) 
+Line (Width 6) (Start -181, -82.89377031) (End -181, -147.5) (Layer TopOverlay) 
+Line (Width 6) (Start 181, 2.53956347) (End 181, 66.71295633) (Layer TopOverlay) 
+Arc (Width 20) (Radius 15) (Location -206, 120.84649658) (StartAngle 93.72075653) (EndAngle 255.80315399) (Layer TopOverlay) 
+Line (Width 1) (Start -176, -142.5) (End 176, -142.5) (Layer Mechanical13) 
+Line (Width 1) (Start 176, -142.5) (End 176, 142.50003624) (Layer Mechanical13) 
+Line (Width 1) (Start 176, 142.50003624) (End -176, 142.50003624) (Layer Mechanical13) 
+Line (Width 1) (Start -176, 142.50003624) (End -176, -142.5) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location -98.42520142, 195.84649658) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 20) (Radius 15) (Location -206, 120.84649658) (StartAngle 0) (EndAngle 360) (Layer BottomOverlay) 
+Line (Width 24) (Start -170.08000183, 97.92917633) (End -170.08000183, 120.92917633) (Layer MultiLayer) 
+Line (Width 24) (Start 170.07875061, 97.92917633) (End 170.07875061, 120.92917633) (Layer MultiLayer) 
+Line (Width 24) (Start -170.08, -51.67710342) (End -170.08, -28.67710342) (Layer MultiLayer) 
+Line (Width 24) (Start 170.08, -51.67710342) (End 170.08, -28.67710342) (Layer MultiLayer) 
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "UJC-HP2-3-SMT-TR") (PartCount 1) (DesPrefix "J?")
+Pin (Location 200, 0) (Rotation 180) (PinType Power) (Length 200) (Width 0) (Designator Visible "B12") (Name Hidden "B12") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 200, -100) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "B9") (Name Hidden "B9") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 200, -200) (Rotation 180) (PinType IO) (Length 200) (Width 0) (Designator Visible "A5") (Name Hidden "A5") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 200, -300) (Rotation 180) (PinType IO) (Length 200) (Width 0) (Designator Visible "B5") (Name Hidden "B5") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 200, -400) (Rotation 180) (PinType Passive) (Length 200) (Width 0) (Designator Visible "A9") (Name Hidden "A9") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 200, -500) (Rotation 180) (PinType Power) (Length 200) (Width 0) (Designator Visible "A12") (Name Hidden "A12") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Line (Width 5) (Start 400, 0) (End 200, 0) (Part 1)
+Line (Width 5) (Start 400, -100) (End 200, -100) (Part 1)
+Line (Width 5) (Start 400, -200) (End 200, -200) (Part 1)
+Line (Width 5) (Start 400, -300) (End 200, -300) (Part 1)
+Line (Width 5) (Start 400, -400) (End 200, -400) (Part 1)
+Line (Width 5) (Start 400, -500) (End 200, -500) (Part 1)
+Line (Width 5) (Start 400, 0) (End 350, 33.3333) (Part 1)
+Line (Width 5) (Start 400, -100) (End 350, -66.6667) (Part 1)
+Line (Width 5) (Start 400, -200) (End 350, -166.6667) (Part 1)
+Line (Width 5) (Start 400, -300) (End 350, -266.6667) (Part 1)
+Line (Width 5) (Start 400, -400) (End 350, -366.6667) (Part 1)
+Line (Width 5) (Start 400, -500) (End 350, -466.6667) (Part 1)
+Line (Width 5) (Start 400, 0) (End 350, -33.3333) (Part 1)
+Line (Width 5) (Start 400, -100) (End 350, -133.3333) (Part 1)
+Line (Width 5) (Start 400, -200) (End 350, -233.3333) (Part 1)
+Line (Width 5) (Start 400, -300) (End 350, -333.3333) (Part 1)
+Line (Width 5) (Start 400, -400) (End 350, -433.3333) (Part 1)
+Line (Width 5) (Start 400, -500) (End 350, -533.3333) (Part 1)
+Rectangle (Width 5) (Start 200, -600) (End 500, 100) (Part 1)
+Parameter (Name "Type") (Location 400, -200) (Height 82) (Rotation 0) (Justification Center) (Value "USB, DVI, HDMI, Connectors") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Same Sky") (Part 1)
+Parameter (Name "RefDes") (Location 350, 250) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "CONN6_UJC-HP2_CUD")
+EndComponent
+EndComponents
