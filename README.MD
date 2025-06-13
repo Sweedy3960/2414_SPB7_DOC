@@ -1,0 +1,19 @@
+- [ ] Port and test `APP_RTC` as Harmony FSM-based task
+- [ ] Port `APP_Touch`, ensure interrupt or polling works
+- [ ] Port `APP_ADC`, wrap read operation in task state machine
+- [ ] Port `APP_Display`, render static content from task
+- [ ] Port `APP_LED`, serial command-based LED control
+- [ ] Port `APP_Relays`, relay GPIO toggle logic
+- [ ] Port `APP_Buzzer`, tune FSM-based melody logic
+- [ ] Port `APP_BT`, receive and queue commands via UART
+- [ ] Port `APP_SD`, chunked read/write via SPI task
+- [ ] Implement `App_EventBus` with publish-subscribe API
+- [ ] Add `App_TaskCtrl` system (isActive, isDirty flags)
+- [ ] Add I2C and SPI access manager to prevent conflicts
+- [ ] Integrate modules in `SYS_Tasks()` with task skipping logic
+- [ ] Trigger inter-module actions (e.g., touch → LED, BT → relay)
+- [ ] Validate non-blocking behavior (touch/UI responsive during SD access)
+- [ ] Conduct long-duration SD logging tests
+- [ ] Implement runtime module enable/disable logic
+- [ ] Remove unused code and reduce flash/RAM footprint
+- [ ] Final validation of power usage and bus timing
