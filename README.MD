@@ -1,8 +1,25 @@
 # 2414_SPB7 – Testeur de Sprinkler
 
-## Description
+Ce projet implémente un système embarqué pour le test et la gestion de modules Sprinkler, basé sur une architecture modulaire et des tâches gérées par machine à états (FSM), pour microcontrôleur PIC32.
 
-Ce projet vise à développer un système embarqué pour le test et la gestion de modules Sprinkler, basé sur une architecture modulaire et des tâches gérées par machine à états (FSM). Il intègre la gestion de multiples périphériques (RTC, Touch, ADC, Display, LED, Relais, Buzzer, Bluetooth, SD Card) et propose une architecture orientée événements pour la communication inter-modules.
+## Sommaire
+
+- [Présentation](#présentation)
+- [Fonctionnalités principales](#fonctionnalités-principales)
+- [Organisation du projet](#organisation-du-projet)
+- [Tableau des fichiers principaux](#tableau-des-fichiers-principaux)
+- [Environnement de développement](#environnement-de-développement)
+- [Compilation](#compilation)
+- [Utilisation](#utilisation)
+- [Suivi des tâches](#suivi-des-tâches)
+- [Documentation](#documentation)
+- [Ressources](#ressources)
+- [Notes](#notes)
+
+## Présentation
+
+Ce dépôt contient le code source, la documentation et la configuration pour le projet de testeur de modules Sprinkler.  
+L’architecture est orientée événements et intègre la gestion de multiples périphériques (RTC, Touch, ADC, Display, LED, Relais, Buzzer, Bluetooth, SD Card).
 
 ## Fonctionnalités principales
 
@@ -59,24 +76,55 @@ Ce projet vise à développer un système embarqué pour le test et la gestion d
 ## Environnement de développement
 
 - **IDE recommandé** : MPLAB X IDE (Microchip) ou équivalent compatible Harmony
-- **Version Harmony** : à préciser selon le portage (ex : Harmony v3)
-- **Compilateur** : XC32 (Microchip) ou compatible
-- **Plateforme cible** : Microcontrôleur PIC32 (à préciser selon la carte)
+- **Compilateur** : XC32 v2.5 
+- **Plateforme cible** : Microcontrôleur PIC32mx79512fl
 
 ## Compilation
 
-1. Ouvrir le projet dans l’IDE recommandé.
-2. Vérifier la configuration du compilateur (XC32).
-3. Compiler le projet (Build Project).
-4. Programmer la cible via l’outil de programmation (PICkit, ICD, etc.).
+1. Cloner le repos en local sur la machine 
+2. Décompresser le dossier projet dans " C:\microchip\harmony\v2_06\apps\MINF" 
+3. Dans Mplab ouvrir le prrojet souhaiter 
+4. Vérifier la configuration du compilateur (XC32).
+5. Compiler le projet (`Build Project`).
+6. Programmer la cible via l’outil de programmation (PICkit, ICD, etc.).
 
-## Suivi des tâches (extrait)
+## Utilisation
 
-- [ ] Portage et test des modules (RTC, Touch, ADC, etc.)
-- [ ] Intégration du bus d’événements
-- [ ] Gestion dynamique des modules
-- [ ] Validation non-blocante et tests d’endurance
-- [ ] Optimisation mémoire et flash
+- Actuellement en développement pas d'utilisation  "normale", le projet flasher est le "SPSPB7_Assembly" 
+- Pour l'instant alimenter le prjet en +3V3 sur les fils qui ressortes du boitier 
+- une séquence de bienvenus s'affiche, les actions sur les toucbes capacitives on un effet sur les leds et écrans 
+
+- Le  projet "2414-DES_SP7_TestSprinkler" est l'ancienne version du programme de test, il n'est pas utilisable simplement
+- il faut l'utiliser en débug et "activer" les fonctionalité à testet grace à des variables globales
+- sur cette ancienne version, les fonctionnalité ont été validée jsuqu'a la carte SD 
+
+L'ordre des fonctionalité implémentée: 
+- voir rapport
+
+## Taches à venir
+
+- [ ] Repartir sur un projet MPlab vierge et faire la configuration corectement
+- [ ] Finir inpmlémenter appInputs -> refractor sm et reconfigurer ADC pour lecture plus rapide 
+- [ ] Ajouter la gestion de la tache et crée les fonction de handling
+- [ ] Crée la logique pour reporter les entrée sur les sorties 
+- [ ] Ajouter l'app MCP /RTC 
+- [ ] Ajouter l'app Bluetooth
+- [ ] Ajouter l'app Buzzer
+
+## Documentation
+
+La documentation technique (Doxygen, schémas, diagrammes) est disponible dans le dossier du projet:
+
+"2414-DES_SP7_TestSprinkler" doc : C:\microchip\harmony\v2_06\apps\MINF\Projet\2414-DES_SP7_TestSprinkler\firmware\src\html\index.html"
+"SPSPB7_Assembly" doc: "C:\microchip\harmony\v2_06\apps\MINF\Projet\SPB7_Assembly\firmware\src\html\index.html"
+
+## Ressources
+
+- [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+- [Doxygen](https://www.doxygen.nl/index.html)
+- [Documentation Microchip PIC32MM](https://www.microchip.com/wwwproducts/en/PIC32MM0064GPL020)
+- [VS Code](https://code.visualstudio.com/)
+- [Graphviz](https://graphviz.gitlab.io/)
 
 ## Notes
 
