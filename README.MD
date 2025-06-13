@@ -115,8 +115,8 @@ L'ordre des fonctionalité implémentée:
 
 La documentation technique (Doxygen, schémas, diagrammes) est disponible dans le dossier du projet:
 
-"2414-DES_SP7_TestSprinkler" doc : C:\microchip\harmony\v2_06\apps\MINF\Projet\2414-DES_SP7_TestSprinkler\firmware\src\html\index.html"
-"SPSPB7_Assembly" doc: "C:\microchip\harmony\v2_06\apps\MINF\Projet\SPB7_Assembly\firmware\src\html\index.html"
+2414-DES_SP7_TestSprinkler doc : C:\microchip\harmony\v2_06\apps\MINF\Projet\2414-DES_SP7_TestSprinkler\firmware\src\html\index.html"
+SPSPB7_Assembly doc: "C:\microchip\harmony\v2_06\apps\MINF\Projet\SPB7_Assembly\firmware\src\html\index.html"
 
 ## Ressources
 
