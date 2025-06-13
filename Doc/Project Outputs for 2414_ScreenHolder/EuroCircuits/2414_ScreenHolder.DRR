@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: 2414_ScreenHolder.PcbDoc   11.04.2025  08:04:48
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : 2414_ScreenHolder-RoundHoles.TXT
+ASCII SlotHoles File : 2414_ScreenHolder-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.7mm (28mil)                                             Round             28        PTH        34.29mm (1.35inch)
+T2      1mm (39mil)                                               Slot              2         PTH        120.90mm (4.76inch)
+T3      1.6mm (63mil)                                             Round             2         PTH        72.40mm (2.85inch)
+T4      4.4mm (173mil)                                            Round             2         NPTH       58.00mm (2.28inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              34
+
+Total Processing Time (hh:mm:ss) : 00:00:00

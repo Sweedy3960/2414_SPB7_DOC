@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [2414_ScreenHolder.PcbDoc]
+   Generated File[2414_ScreenHolder-RoundHoles.TXT]
+   Generated File[2414_ScreenHolder-SlotHoles.TXT]
+   Generated File[2414_ScreenHolder.LDP]
+   Generated File[2414_ScreenHolder.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 08:04:48 On 11.04.2025

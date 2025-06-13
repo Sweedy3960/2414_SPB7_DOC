@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Public\Documents\Altium\2414_ScreenHolder\2414_ScreenHolder.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=2414_screenholder-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=2414_screenholder-slotholes.txt|DrillLayers=gtl,gbl

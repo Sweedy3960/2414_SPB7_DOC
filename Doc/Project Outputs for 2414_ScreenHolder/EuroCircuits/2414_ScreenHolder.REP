@@ -1,0 +1,244 @@
+*************************************************************
+FileName = 2414_ScreenHolder.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : 2414_ScreenHolder_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : 2414_ScreenHolder_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : 2414_ScreenHolder_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : 2414_ScreenHolder_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : 2414_ScreenHolder_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : 2414_ScreenHolder_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : 2414_ScreenHolder_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : 2414_ScreenHolder_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Outline
+      File : 2414_ScreenHolder_Outline.gbr
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Top Dimensions
+      File : 2414_ScreenHolder_Top_Dimensions.gbr
+
+    Adding Layer      : Top Dimensions
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : 2414_ScreenHolder_Profile.gbr
+
+
+Used DCodes :
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : 2414_ScreenHolder_NPTH_Drill.gbr
+
+
+Used DCodes :
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : 2414_ScreenHolder_PTH_Drill.gbr
+
+
+Used DCodes :
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : 2414_ScreenHolder_Drawing_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D33
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : 2414_ScreenHolder_Drillmap_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D33
+*************************************************************
+
